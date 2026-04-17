@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using System.Globalization;
 using Microsoft.Extensions.AI;
 
 namespace SalesToSignature.Agents.Tools;
@@ -18,6 +19,8 @@ public static class ApproveContract
         [Description("Client name")] string clientName,
         [Description("Engagement type")] string engagementType)
     {
+        var formattedValue = totalValue.ToString("C", CultureInfo.GetCultureInfo("en-US"));
+
         // In the Foundry hosted agent workflow, this function is wrapped with
         // ToolApprovalRequestContent which pauses execution and presents the
         // tool call to the human reviewer in the VS Code / portal UI.
@@ -27,7 +30,7 @@ public static class ApproveContract
             ================
             Client: {clientName}
             Engagement: {engagementType}
-            Value: {totalValue:C}
+            Value: {formattedValue}
 
             Summary:
             {contractSummary}
