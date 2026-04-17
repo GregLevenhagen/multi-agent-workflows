@@ -1,0 +1,97 @@
+{
+  "roles": [
+    {
+      "role": "Architect",
+      "title": "Solution Architect / Technical Lead",
+      "rates": {
+        "StaffAugmentation": { "hourly": 275, "daily": 2200 },
+        "FixedBid": { "hourly": 300, "daily": 2400 },
+        "TimeAndMaterials": { "hourly": 285, "daily": 2280 },
+        "Advisory": { "hourly": 300, "daily": 2400 }
+      }
+    },
+    {
+      "role": "SeniorDev",
+      "title": "Senior Developer / Senior Engineer",
+      "rates": {
+        "StaffAugmentation": { "hourly": 225, "daily": 1800 },
+        "FixedBid": { "hourly": 250, "daily": 2000 },
+        "TimeAndMaterials": { "hourly": 235, "daily": 1880 },
+        "Advisory": { "hourly": 250, "daily": 2000 }
+      }
+    },
+    {
+      "role": "Developer",
+      "title": "Developer / Engineer",
+      "rates": {
+        "StaffAugmentation": { "hourly": 175, "daily": 1400 },
+        "FixedBid": { "hourly": 200, "daily": 1600 },
+        "TimeAndMaterials": { "hourly": 185, "daily": 1480 },
+        "Advisory": { "hourly": 200, "daily": 1600 }
+      }
+    },
+    {
+      "role": "ProjectManager",
+      "title": "Project Manager / Engagement Manager",
+      "rates": {
+        "StaffAugmentation": { "hourly": 200, "daily": 1600 },
+        "FixedBid": { "hourly": 225, "daily": 1800 },
+        "TimeAndMaterials": { "hourly": 210, "daily": 1680 },
+        "Advisory": { "hourly": 225, "daily": 1800 }
+      }
+    },
+    {
+      "role": "QAEngineer",
+      "title": "QA Engineer / Test Automation Engineer",
+      "rates": {
+        "StaffAugmentation": { "hourly": 165, "daily": 1320 },
+        "FixedBid": { "hourly": 185, "daily": 1480 },
+        "TimeAndMaterials": { "hourly": 175, "daily": 1400 },
+        "Advisory": { "hourly": 185, "daily": 1480 }
+      }
+    },
+    {
+      "role": "DevOpsEngineer",
+      "title": "DevOps / Cloud Engineer",
+      "rates": {
+        "StaffAugmentation": { "hourly": 235, "daily": 1880 },
+        "FixedBid": { "hourly": 260, "daily": 2080 },
+        "TimeAndMaterials": { "hourly": 245, "daily": 1960 },
+        "Advisory": { "hourly": 260, "daily": 2080 }
+      }
+    }
+  ],
+  "metadata": {
+    "currency": "USD",
+    "hoursPerDay": 8,
+    "hoursPerMonth": 160,
+    "effectiveDate": "2025-01-01",
+    "notes": "Rates are exclusive of travel and expenses. Volume discounts apply automatically based on engagement duration."
+  },
+  "volumeDiscounts": [
+    {
+      "minMonths": 1,
+      "maxMonths": 6,
+      "discountPercent": 0,
+      "label": "Standard"
+    },
+    {
+      "minMonths": 7,
+      "maxMonths": 9,
+      "discountPercent": 5,
+      "label": "Extended"
+    },
+    {
+      "minMonths": 10,
+      "maxMonths": 12,
+      "discountPercent": 8,
+      "label": "Annual"
+    },
+    {
+      "minMonths": 13,
+      "maxMonths": 24,
+      "discountPercent": 12,
+      "label": "Strategic"
+    }
+  ]
+}

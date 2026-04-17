@@ -1,0 +1,17 @@
+name: sales-to-signature
+metadata:
+  template: multi-agent-workflows-az-funcs
+
+services:
+  agents:
+    project: ./src/SalesToSignature.Agents
+    language: csharp
+    host: containerapp
+    docker:
+      path: ./src/SalesToSignature.Agents/Dockerfile
+      context: ./src/SalesToSignature.Agents
+
+infra:
+  provider: bicep
+  path: ./infra
+  module: main

@@ -1,0 +1,174 @@
+## =========================
+## Azure Functions
+## =========================
+local.settings.json
+appsettings.Development.json
+bin/
+obj/
+publish/
+.azure/
+.func/
+*.azurefunctions/
+host.json.bak
+
+## =========================
+## Visual Studio / VS Code
+## =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.rsuser
+*.pidb
+*.svclog
+*.scc
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## =========================
+## C# / .NET
+## =========================
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.opendb
+*.cache
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+nuget.config
+!**/nuget.config
+
+# Rider
+.idea/
+*.sln.iml
+
+# dotnet tool manifests
+#.config/
+
+# User secrets
+secrets.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Build results
+[Dd]ebugPublic/
+[Rr]eleases/
+build/
+*.VisualState.xml
+TestResult.xml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.dotCover
+
+# Code coverage
+*.coverage
+*.coveragexml
+coverage/
+TestResults/
+
+## =========================
+## Microsoft Agent Framework SDK
+## =========================
+.agents/
+agent_state/
+.bot/
+*.bot.recipe
+cognitivemodels/
+deploymentScripts/
+DeploymentScripts/
+*.bot
+
+## =========================
+## Ralph / Custom Scripts
+## =========================
+.ralphignore
+scripts/ralph/
+
+## =========================
+## Local AI Assistant State
+## =========================
+.claude/
+.codex/
+
+## =========================
+## OS Files
+## =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## =========================
+## Environment & Secrets
+## =========================
+.env
+.env.*
+!.env.example
+*.pfx
+*.key
+*.pem
+*.cer
+*.crt
+
+## =========================
+## Misc Local Files
+## =========================
+*.orig

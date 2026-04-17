@@ -1,0 +1,80 @@
+{
+  "StaffAugmentation": [
+    {
+      "id": "SA-001",
+      "name": "Consultant Replacement",
+      "text": "Consultant shall provide replacement personnel of equivalent qualifications within 10 business days if any assigned consultant becomes unavailable. Client retains the right to request replacement of any consultant with 5 business days written notice."
+    },
+    {
+      "id": "SA-002",
+      "name": "Client Direction and Control",
+      "text": "Augmented staff shall work under the day-to-day direction of Client's project manager. Client is responsible for providing work assignments, tools, and workspace. Consultant retains employment relationship with the augmented staff."
+    },
+    {
+      "id": "SA-003",
+      "name": "Timesheet Approval",
+      "text": "Consultants shall submit weekly timesheets for Client approval. Invoicing shall be based on approved timesheets only. Any disputed hours must be raised within 5 business days of timesheet submission."
+    }
+  ],
+  "FixedBid": [
+    {
+      "id": "FB-001",
+      "name": "Change Order Process",
+      "text": "Any changes to the agreed scope shall be documented in a formal Change Order signed by authorized representatives of both parties. Change Orders shall specify: description of change, impact on timeline, price adjustment, and updated acceptance criteria. No work on changes shall begin until the Change Order is fully executed."
+    },
+    {
+      "id": "FB-002",
+      "name": "Acceptance Testing",
+      "text": "Upon delivery of each milestone, Client shall have 5 business days to perform acceptance testing. Client shall provide written acceptance or detailed rejection notice. Consultant shall address rejection items within 3 business days. A milestone is deemed accepted if Client fails to provide a rejection notice within the review period."
+    },
+    {
+      "id": "FB-003",
+      "name": "Warranty Period",
+      "text": "Consultant provides a 90-day warranty on all deliverables from the date of final acceptance. During the warranty period, Consultant shall correct any defects in the delivered functionality at no additional cost. Warranty does not cover issues caused by Client modifications or use outside the agreed specifications."
+    },
+    {
+      "id": "FB-004",
+      "name": "Milestone Payment",
+      "text": "Payments shall be tied to milestone completion and acceptance. No payment is due until the corresponding milestone is formally accepted by Client. Consultant shall not be required to proceed with subsequent milestones if prior milestone payments are overdue by more than 15 days."
+    },
+    {
+      "id": "FB-005",
+      "name": "Data Sovereignty and Residency",
+      "text": "All Client data, including development, staging, and production environments, shall reside exclusively within the geographic regions specified by Client. Consultant shall not transfer, process, or store Client data outside the designated regions without prior written consent. This obligation extends to all subprocessors, cloud services, and third-party tools used in the delivery of services. Consultant shall maintain documentation of data residency compliance upon request."
+    }
+  ],
+  "TimeAndMaterials": [
+    {
+      "id": "TM-001",
+      "name": "Not-to-Exceed Cap",
+      "text": "Total fees under this SOW shall not exceed the Not-to-Exceed amount without prior written approval from Client. Consultant shall notify Client when 75% of the budget has been consumed and provide a forecast of remaining work."
+    },
+    {
+      "id": "TM-002",
+      "name": "Rate Adjustment",
+      "text": "Rates shall remain fixed for the initial 12 months of the engagement. After the initial period, Consultant may propose rate adjustments with 60 days written notice. Rate increases shall not exceed 5% annually."
+    },
+    {
+      "id": "TM-003",
+      "name": "Minimum Commitment",
+      "text": "Client agrees to a minimum monthly commitment of the agreed consultant allocation. If Client requires less than the minimum commitment in any month, the minimum commitment amount shall still apply unless 15 days advance notice is provided."
+    }
+  ],
+  "Advisory": [
+    {
+      "id": "ADV-001",
+      "name": "Deliverable Format",
+      "text": "All advisory deliverables shall be provided in electronic format (PDF and editable source). Presentations shall be delivered in PowerPoint format. Client shall receive all source materials used to produce deliverables."
+    },
+    {
+      "id": "ADV-002",
+      "name": "Stakeholder Access",
+      "text": "Client shall ensure that Consultant has reasonable access to key stakeholders, subject matter experts, and decision-makers as identified in the SOW. Client shall make stakeholders available for scheduled interviews within 5 business days of request."
+    },
+    {
+      "id": "ADV-003",
+      "name": "Recommendations Disclaimer",
+      "text": "Recommendations provided under this engagement represent Consultant's professional opinion based on information available at the time of assessment. Consultant does not guarantee specific outcomes from implementation of recommendations. Client is solely responsible for decisions regarding implementation."
+    }
+  ]
+}

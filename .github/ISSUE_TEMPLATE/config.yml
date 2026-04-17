@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/greglevenhagen/multi-agent-workflows/security/advisories/new
+    about: Report sensitive vulnerabilities privately.
+  - name: Support and usage questions
+    url: https://github.com/greglevenhagen/multi-agent-workflows/issues/new
+    about: Use issues for reproducible questions and project support requests.

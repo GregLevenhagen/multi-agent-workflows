@@ -1,0 +1,98 @@
+[
+  {
+    "id": "IP-001",
+    "name": "Work Product Assignment",
+    "text": "All deliverables, code, documentation, and other materials created by Consultant specifically for Client under this SOW ('Work Product') shall be owned by Client upon full payment. Consultant hereby assigns all rights, title, and interest in the Work Product to Client.",
+    "category": "IP"
+  },
+  {
+    "id": "IP-002",
+    "name": "Pre-Existing IP License",
+    "text": "Consultant retains all rights to its pre-existing intellectual property, tools, methodologies, and frameworks ('Consultant IP'). To the extent Consultant IP is incorporated into Work Product, Consultant grants Client a non-exclusive, perpetual, royalty-free license to use such Consultant IP solely as part of the Work Product.",
+    "category": "IP"
+  },
+  {
+    "id": "LIA-001",
+    "name": "Limitation of Liability Cap",
+    "text": "Neither party's total aggregate liability under this Agreement shall exceed the total fees paid or payable under the applicable SOW in the 12 months preceding the claim.",
+    "category": "Liability"
+  },
+  {
+    "id": "LIA-002",
+    "name": "Consequential Damages Exclusion",
+    "text": "In no event shall either party be liable for indirect, incidental, special, consequential, or punitive damages, regardless of the cause of action or theory of liability, even if advised of the possibility of such damages.",
+    "category": "Liability"
+  },
+  {
+    "id": "TERM-001",
+    "name": "Termination for Convenience",
+    "text": "Either party may terminate this Agreement or any SOW with 30 days written notice. Upon termination, Client shall pay for all services rendered through the termination effective date.",
+    "category": "Termination"
+  },
+  {
+    "id": "TERM-002",
+    "name": "Termination for Cause",
+    "text": "Either party may terminate immediately upon written notice if the other party materially breaches this Agreement and fails to cure within 30 days of written notice of such breach.",
+    "category": "Termination"
+  },
+  {
+    "id": "PAY-001",
+    "name": "Payment Terms Net 30",
+    "text": "All invoices are due and payable within 30 days of the invoice date. Late payments shall accrue interest at 1.5% per month or the maximum rate permitted by applicable law, whichever is less.",
+    "category": "Payment"
+  },
+  {
+    "id": "PAY-002",
+    "name": "Expense Reimbursement",
+    "text": "Client shall reimburse Consultant for pre-approved, reasonable travel and out-of-pocket expenses in accordance with Client's travel policy, billed at cost without markup.",
+    "category": "Payment"
+  },
+  {
+    "id": "CONF-001",
+    "name": "Confidentiality Obligations",
+    "text": "Each party shall maintain in confidence all non-public information received from the other party that is designated as confidential or that a reasonable person would understand to be confidential. Confidentiality obligations survive termination for 3 years.",
+    "category": "Confidentiality"
+  },
+  {
+    "id": "DP-001",
+    "name": "Data Protection",
+    "text": "If Consultant processes personal data on behalf of Client, the parties shall execute a Data Processing Addendum in compliance with applicable data protection laws including GDPR and CCPA. Consultant shall implement appropriate technical and organizational measures to protect personal data.",
+    "category": "DataProtection"
+  },
+  {
+    "id": "FM-001",
+    "name": "Force Majeure",
+    "text": "Neither party shall be liable for delays or failures in performance resulting from circumstances beyond its reasonable control, including but not limited to natural disasters, pandemics, government actions, war, terrorism, labor disputes, or infrastructure failures, provided the affected party gives prompt notice and uses reasonable efforts to mitigate.",
+    "category": "ForceMajeure"
+  },
+  {
+    "id": "NS-001",
+    "name": "Non-Solicitation",
+    "text": "During the term of the engagement and for 12 months following its completion, neither party shall directly solicit for employment any employee of the other party who was materially involved in the engagement, without the other party's prior written consent.",
+    "category": "NonSolicitation"
+  },
+  {
+    "id": "CONF-002",
+    "name": "Return of Materials",
+    "text": "Upon termination or expiration of the Agreement, each party shall promptly return or destroy all Confidential Information of the other party and certify such return or destruction in writing within 30 days.",
+    "category": "Confidentiality"
+  },
+  {
+    "id": "LIA-003",
+    "name": "Indemnification",
+    "text": "Consultant shall indemnify and hold harmless Client from third-party claims arising from Consultant's gross negligence, willful misconduct, or infringement of third-party intellectual property rights by the Work Product.",
+    "category": "Liability"
+  },
+  {
+    "id": "DP-002",
+    "name": "GDPR Data Processing Addendum",
+    "text": "Where Consultant processes personal data of EU/EEA data subjects on behalf of Client, the parties shall execute a Data Processing Addendum (DPA) compliant with GDPR Article 28. The DPA shall specify: categories of data subjects and personal data, processing purposes and duration, Consultant obligations as data processor, sub-processor approval requirements, cross-border transfer mechanisms (Standard Contractual Clauses or adequacy decisions), data breach notification within 72 hours, data subject rights assistance, and audit rights. Consultant shall maintain a Record of Processing Activities (ROPA) and appoint a Data Protection Officer where required by applicable law.",
+    "category": "DataProtection"
+  },
+  {
+    "id": "DP-003",
+    "name": "Data Breach Notification",
+    "text": "Consultant shall notify Client within 24 hours of discovering any actual or suspected breach of personal data or confidential information. Notification shall include: nature of the breach, categories and approximate number of records affected, likely consequences, and measures taken or proposed to address the breach. Consultant shall cooperate with Client in any investigation, notification to regulators or data subjects, and remediation efforts.",
+    "category": "DataProtection"
+  }
+]
