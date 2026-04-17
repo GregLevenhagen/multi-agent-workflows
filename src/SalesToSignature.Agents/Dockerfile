@@ -1,7 +1,7 @@
 # Build stage
 # Note: For Azure Foundry hosted agents, use --platform linux/amd64 when building on ARM (e.g., Apple Silicon)
 #   docker build --platform linux/amd64 -t sales-to-signature .
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copy project file and restore dependencies (layer caching)
